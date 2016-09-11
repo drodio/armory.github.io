@@ -1,0 +1,21 @@
+.nav {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.hero {
+  background-image: url(../images/header.jpg);
+  background-size: cover;
+  text-align: center;
+  padding-top: 25px;
+  height: 250px;
+}
+
+.white {
+  color: #fff
+}
+
+.space {
+  margin-left: 10px;
+  display: inline;
+}
