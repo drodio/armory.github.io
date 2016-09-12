@@ -3,12 +3,30 @@
   padding-right: 30px;
 }
 
+.button.is-medium {
+  margin: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 .hero {
   background-image: url(../images/header.jpg);
   background-size: cover;
   text-align: center;
   padding-top: 25px;
-  height: 250px;
+}
+.button.btc:hover {
+  color: white;
+  background-color: #E58900;
+  border-color: black;
+}
+.button.btc:focus {
+  color: white;
+  border-color: black;
+}
+.btc {
+  background-color: #FF9900;
+  border-color: #222324;
+  color: #fff;
 }
 
 .white {
