@@ -1,39 +1,68 @@
+.hamburger span, .nav-toggle span {
+  background-color: #fff;
+}
+.button.is-primary {
+  background-color: #434A54;
+}
+.button.is-primary:hover, .button.is-primary:focus, .button.is-primary.is-active {
+  background-color: #4A89DC;
+}
 .nav {
-  padding-left: 30px;
-  padding-right: 30px;
+  background-color: #333;
 }
-
-.button.is-medium {
-  margin: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-.hero {
-  background-image: url(../images/header.jpg);
-  background-size: cover;
-  text-align: center;
-  padding-top: 25px;
-}
-.button.btc:hover {
-  color: white;
-  background-color: #E58900;
-  border-color: black;
-}
-.button.btc:focus {
-  color: white;
-  border-color: black;
-}
-.btc {
-  background-color: #FF9900;
-  border-color: #222324;
+.nav-item a:hover, a.nav-item:hover {
   color: #fff;
 }
-
-.white {
-  color: #fff
-}
-
-.space {
+.nav-item a, a.nav-item {
+  color: #999;
   margin-left: 10px;
-  display: inline;
+  margin-right: 10px;
+}
+.subtitle {
+  color: #fff;
+}
+.title.is-1 {
+  font-size: 52px;
+  color: #fff;
+}
+.title {
+  color: #fff;
+}
+.hero {
+  background-image: url(../images/background.png);
+  padding-bottom: 25px;
+}
+.fa-link, {
+  vertical-align: middle;
+}
+.fa {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+.columns {
+  margin: 20px;
+}
+.message {
+  color: #434a54;
+}
+.message-header {
+  background-color: #e6e9ed;
+  font-size: 16px;
+  color: #434a54;
+}
+.message.is-info .message-header {
+  background-color: #4A89DC;
+}
+.message.is-info .message-body {
+  border-color: #4A89DC;
+}
+.hero .nav {
+  box-shadow: none;
+}
+.hero-body {
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+.hamburger:hover, .nav-toggle:hover {
+  background-color: transparent;
 }
