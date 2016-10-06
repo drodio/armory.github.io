@@ -1,1 +1,2 @@
-# armory.github.io
+# Armory
+## Bitcoin Tip Bot
